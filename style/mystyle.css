@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:700');
+
+:root {
+    --mt: 1%;
+    --pt:10vh;
+    --conhe:40vh;
+}
+
+body {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(47, 54, 64);
+        
+}
+
+
+.bg-light {
+    background-color: rgb(233, 236, 239)!important;
+}
+
+.jumbotron {
+    margin-bottom: 1%;
+    background-color:rgb(249, 192, 12);
+    min-height: 50vh; 
+
+
+}
+
+.fa .fa-home {
+    text-align: left;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(123, 170, 226);
+}
+
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+.concolor1 {
+    background-color: rgb(165, 223, 249);
+    margin-top: var(--mt);
+    padding-top:var(--pt); 
+}
+
+.concolor2 {
+    background-color:rgb(239, 82, 133);
+    margin-top: var(--mt);
+    padding-top:var(--pt); 
+}
+
+.concolor3 {
+    background-color:rgb(96, 197, 186);
+    margin-top: var(--mt);
+    padding-top:var(--pt); 
+}
+
+.concolor4 {
+    background-color: rgb(233,236,239);
+    margin-top:var(--mt);
+    margin-bottom: 1%;
+    height: 100%;
+}
+
+
+p {
+    font-size: 25px; 
+}
+
+.biggerico {
+    font-size: 30px
+}
+
+
+
+
+
+
