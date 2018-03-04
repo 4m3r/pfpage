@@ -22,7 +22,7 @@ body {
 .jumbotron {
     margin-bottom: 1%;
     background-color:rgb(249, 192, 12);
-    min-height: 50vh; 
+    /*min-height: 50vh;*/ 
 
 
 }
