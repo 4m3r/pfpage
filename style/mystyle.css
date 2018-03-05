@@ -3,7 +3,20 @@
 :root {
     --mt: 1%;
     --pt:10vh;
+    --pb:10vh;
     --conhe:40vh;
+    --rdde:0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
 body {
@@ -44,18 +57,21 @@ body {
     background-color: rgb(165, 223, 249);
     margin-top: var(--mt);
     padding-top:var(--pt); 
+    padding-bottom: var(--pb);
 }
 
 .concolor2 {
     background-color:rgb(239, 82, 133);
     margin-top: var(--mt);
-    padding-top:var(--pt); 
+    padding-top:var(--pt);
+    padding-bottom: var(--pb); 
 }
 
 .concolor3 {
     background-color:rgb(96, 197, 186);
     margin-top: var(--mt);
-    padding-top:var(--pt); 
+    padding-top:var(--pt);
+    padding-bottom: var(--pb); 
 }
 
 .concolor4 {
@@ -99,15 +115,18 @@ p {
 
 .color1 {
    color: #FFFFBF;
+   text-shadow: var(--rdde);
  
 }
 
 .color2 {
-    color: #FF9A87;
+    color: #FFFFBF;
+    text-shadow: var(--rdde);
 }
 
 .color3 {
-    color:#FF0000;
+    color:#FFFFBF;
+    text-shadow: var(--rdde);
 }
 
 
