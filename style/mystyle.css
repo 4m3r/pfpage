@@ -9,7 +9,7 @@
 body {
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
-    margin: 5px 5px 5px 5px;
+    margin: 0.7rem 0.7rem 0.7rem 0.7rem;
     background-color: rgb(47, 54, 64);
         
 }
@@ -22,7 +22,7 @@ body {
 .jumbotron {
     margin-bottom: 1%;
     background-color:rgb(249, 192, 12);
-    /*min-height: 50vh;*/ 
+    
 
 
 }
@@ -67,12 +67,51 @@ body {
 
 
 p {
-    font-size: 25px; 
+    font-size: 1.50rem;
+     
 }
 
 .biggerico {
     font-size: 30px
 }
+
+.img-fluid {
+    border-radius: 50%;
+    border: 7px solid #fefefe;
+    height: 20vh;
+    width: 20vh;
+}
+
+.card-deck .card {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+}
+
+.card {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    
+}
+
+.color1 {
+   color: #FFFFBF;
+ 
+}
+
+.color2 {
+    color: #FF9A87;
+}
+
+.color3 {
+    color:#FF0000;
+}
+
+
+
 
 
 
